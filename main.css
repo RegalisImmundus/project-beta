@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'open_sans';
+  src: url('./fonts/OpenSans-Regular-webfont.woff2') format('woff2'),
+       url('./fonts/OpenSans-Regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'open_sans';
+  src: url('./fonts/OpenSans-Bold-webfont.woff2') format('woff2'),
+       url('./fonts/OpenSans-Bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'open_sans';
+  src: url('./fonts/OpenSans-ExtraBold-webfont.woff2') format('woff2'),
+       url('./fonts/OpenSans-ExtraBold-webfont.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+
+}
+
+body {
+  font: 300 16px/1.42 'open_sans', arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1 {
+/* Авторские  туры по Азии */
+/*
+position: absolute;
+width: 776px;
+height: 197px;
+left: 572px;
+top: 229px;
+*/
+font-weight: 800;
+font-size: 72px;
+line-height: 98px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+p.products__text {
+/*
+position: absolute;
+width: 306px;
+height: 66px;
+left: 800px;
+top: 1068px;
+*/
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+color: #666666;
+
+}
+
+p.feature__subtitle {
+
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+display: flex;
+align-items: center;
+
+color: #666666;
+
+}
+
+h3 {
+
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+
+}
+
+h2 {
+
+font-weight: 800;
+font-size: 36px;
+line-height: 49px;
+display: flex;
+align-items: flex-end;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
