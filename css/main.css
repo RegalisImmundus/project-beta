@@ -1,24 +1,24 @@
-@import url(./css/layout/normalize.css);
-@import url(./css/layout/base.css);
+@import url(./layout/normalize.css);
+@import url(./layout/base.css);
 
-@import url(./css/blocks/header.css);
-@import url(./css/blocks/main-page.css);
-@import url(./css/blocks/greetings.css);
-@import url(./css/blocks/products.css);
-@import url(./css/blocks/news.css);
-@import url(./css/blocks/pager.css);
-@import url(./css/blocks/about.css);
-@import url(./css/blocks/footer.css);
+@import url(./blocks/header.css);
+@import url(./blocks/main-page.css);
+@import url(./blocks/greetings.css);
+@import url(./blocks/products.css);
+@import url(./blocks/news.css);
+@import url(./blocks/pager.css);
+@import url(./blocks/about.css);
+@import url(./blocks/footer.css);
 
-@import url(./css/blocks/offers--wrapper.css);
-@import url(./css/blocks/page-title.css);
-@import url(./css/blocks/breadcrumbs.css);
-@import url(./css/blocks/top-line.css);
-@import url(./css/blocks/page-content.css);
-@import url(./css/blocks/service.css);
-@import url(./css/blocks/inner-section.css);
-@import url(./css/blocks/partners.css);
+@import url(./blocks/offers--wrapper.css);
+@import url(./blocks/page-title.css);
+@import url(./blocks/breadcrumbs.css);
+@import url(./blocks/top-line.css);
+@import url(./blocks/page-content.css);
+@import url(./blocks/service.css);
+@import url(./blocks/inner-section.css);
+@import url(./blocks/partners.css);
 
 
-@import url(./css/blocks/hello.css);
-@import url(./css/blocks/central.css);
+@import url(./blocks/hello.css);
+@import url(./blocks/central.css);
