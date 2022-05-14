@@ -1,0 +1,25 @@
+.greetings {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.greetings__title {
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  align-items: center;
+}
+
+.greetings__subtitle {
+  font-size: 18px;
+  margin-bottom: 38px;
+  text-align: center;
+  align-items: center;
+}
+
+
+.greetings__button--wrapper {
+  margin-bottom: 233px;
+  text-align: center;
+}

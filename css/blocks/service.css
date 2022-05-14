@@ -1,0 +1,31 @@
+.service {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.service:last-child {
+  margin-bottom: 65px;
+}
+
+.service__img {
+  width: 41%;
+  margin-right: 51px;
+}
+
+.service__content {
+  flex: 1;
+  padding-top: 13px;
+}
+
+.service__title {
+  text-transform: none;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: #000000;
+}
+
+.service__desc {
+  line-height: 27px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,23 @@
+.main-page-wrapper {
+  background: url(../../img/top-pic.png) center top no-repeat, url(../../img/bottom-pic.png) center bottom no-repeat;
+}
+
+p.products__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+
+  color: #666666;
+}
+
+p.feature__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+
+  color: #666666;
+}

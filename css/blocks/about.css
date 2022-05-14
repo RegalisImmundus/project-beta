@@ -1,0 +1,40 @@
+section.about {
+  margin-bottom: 52px;
+}
+
+div.about:before {
+  content: "";
+  max-width: 490px;
+  height: 505px;
+  background: url("../../img/cameraman.png") center center / cover no-repeat;
+  display: block;
+}
+
+.about_desc {
+  display: flex;
+}
+
+.about__desc {
+  background: #fff;
+  border-radius: 5px;
+  padding: 70px 80px 67px;
+  max-width: 785px;
+  margin-top: -408px;
+  margin-left: 354px;
+}
+
+.about__title {
+  padding-bottom: 38px;
+}
+
+.about__text {
+  color: #000000;
+  margin-bottom: 164px;
+  line-height: 27px;
+  margin-bottom: 39px;
+  padding-right: 123px;
+}
+
+.about--button {
+  padding: 18px 41px;
+}

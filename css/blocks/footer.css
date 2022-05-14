@@ -1,0 +1,78 @@
+.footer {
+  height: 146px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__content {
+  border-top: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+.footer .logo {
+  margin-right: 60px;
+}
+
+.footer .menu {
+  margin-right: 30px;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle; 
+  margin-right: 6px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 35px;
+}
+
+.socials__item--icon--telegram .socials__link {
+  background-image: url(../../img/telegram.png);
+}
+
+.socials__item--icon--telegram .socials__link:hover {
+  background-image: url(../../img/telegram-hover.png);
+}
+
+.socials__item--icon--vk .socials__link {
+  background-image: url(../../img/vk.png);
+}
+
+.socials__item--icon--vk .socials__link:hover {
+  background-image: url(../../img/vk-hover.png);
+}
+
+.socials__item--icon--fb .socials__link {
+  background-image: url(../../img/facebook.png);
+}
+
+.socials__item--icon--fb .socials__link:hover {
+  background-image: url(../../img/facebook-hover.png);
+}
+
+.socials__item--icon--insta .socials__link {
+  background-image: url(../../img/instagram.png);
+}
+
+.socials__item--icon--insta .socials__link:hover {
+  background-image: url(../../img/instagram-hover.png);
+}
+
+.contacts__callprice {
+  color: #9a9a9a;
+  font-size: 11px;
+  }

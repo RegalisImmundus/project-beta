@@ -1,0 +1,42 @@
+.central {
+  height: 643px;
+  width: 1128px;
+  background: url(../../img/rec.png) center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.central__img {
+  margin-bottom: 40px;
+}
+
+.central__button {
+  padding: 17px 58px;
+}
+
+.central--video {
+  opacity: 0;
+  animation: rotateIn .9s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotateIn {
+  from {
+    transform: scale(0.1) rotate(30deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    transform: rotate(3deg);
+  }
+
+ to {
+   opacity: 1;
+   transform: scale(1);
+ }
+}
