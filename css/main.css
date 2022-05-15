@@ -2,6 +2,7 @@
 @import url(./layout/base.css);
 
 @import url(./blocks/header.css);
+@import url(./blocks/dropdown.css);
 @import url(./blocks/main-page.css);
 @import url(./blocks/greetings.css);
 @import url(./blocks/products.css);
@@ -10,7 +11,6 @@
 @import url(./blocks/about.css);
 @import url(./blocks/footer.css);
 
-@import url(./blocks/offers--wrapper.css);
 @import url(./blocks/page-title.css);
 @import url(./blocks/breadcrumbs.css);
 @import url(./blocks/top-line.css);
@@ -22,3 +22,8 @@
 
 @import url(./blocks/hello.css);
 @import url(./blocks/central.css);
+
+@import url(./blocks/reviews.css);
+@import url(./blocks/separator.css);
+@import url(./blocks/form.css);
+@import url(./blocks/controls.css);

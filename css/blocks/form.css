@@ -1,0 +1,90 @@
+.form__controls {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 27px;
+}
+
+.form__controls--title {
+  width: 38%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.form {
+  margin-bottom: 96px;
+}
+
+.form__title {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  text-transform: uppercase;
+  margin-bottom: 49px;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 27px;
+}
+
+.form__row--last {
+  margin-bottom: 23px;
+}
+
+.form__input {
+  flex: 1;
+  margin-right: 30px;
+  border-radius: 5px;
+  border: none;
+  background: #FFFFFF;
+  padding: 20px 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.form__input:hover {
+  outline: 1px solid #cccccc
+}
+
+.form__input:focus {
+  outline: 1px solid #cccccc
+}
+
+.form__input::placeholder {
+  color: #666;
+}
+
+.form__input:last-child {
+  margin-right: 0;
+}
+
+.form__input--textarea {
+  height: 235px;
+  padding: 28px;
+}
+
+.form__buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+ 
+.button--form {
+  color: #FFFFFF;
+  padding: 18px 43px;
+  margin-right: 10px;
+}
+
+.button--form:last-child {
+  margin-right: 0;
+}
+
+
+.button--form--grey {
+  background: #8E8E8E;
+}
+
+.button--form--grey:hover {
+  background: #2B2B2B;
+}
