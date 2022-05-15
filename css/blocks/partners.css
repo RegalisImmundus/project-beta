@@ -22,7 +22,7 @@
   display: flex;
   justify-content: center;
   filter: grayscale(100%);
-  transition-duration: 0.15s;
+  transition: 0.15s;
 }
 
 .partners__item:nth-child(4n+1) .partners__link {
@@ -31,5 +31,5 @@
 
 .partners__link:hover {
  filter: grayscale(0%);
- transition-duration: 0.15s;
+ transition: 0.15s;
 }
