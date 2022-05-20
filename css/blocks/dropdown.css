@@ -4,17 +4,19 @@
   padding-bottom: 7px;
 }
 
+.dropdown:hover .contacts__workhours {
+  color: #FF3D00; 
+}
+
 .dropdown:hover .dropdown__menu {
-  display: flex;
-  animation: drop 0.15s;
+  /* display: flex; */
+  /* animation: drop 0.15s; */
+  right: 0;
+  left: auto;
+  opacity: 80%;
 }
 
-.dropdown:hover .dropdown-triangle {
-  display: block;
-  animation: drop 0.15s;
-}
-
-@keyframes drop {
+/* @keyframes drop {
   from {
    opacity: 0%; 
   }
@@ -22,7 +24,8 @@
   to {
     opacity: 80%;
   }
-}
+} */
+
 
 .dropdown__menu {
   position: absolute;
@@ -36,23 +39,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  right: 0;
-  display: none;
+  /* right: 0; */
+  left: -9999px;
+  /* display: none; */
+  opacity: 0%;
 }
 
-.dropdown-triangle {
+.dropdown__menu::after {
+  content: '';
   position: absolute;
   border: 10px solid transparent;
-  width: 0;
-  height: 0;
+  /* width: 0;
+  height: 0; */
   border-bottom-color: #cdd1d2;
-  opacity: 0.8;
   border-top-width: 0;
   border-right-width: 12px;
-  border-left-width: 12px;
-  margin-top: -3px;
-  transform: translate(40px);
-  display: none;
+  border-left-width: 12px;  
+  top: -10px;
+  right: 39px;
 }
 
 .dropdown__item {

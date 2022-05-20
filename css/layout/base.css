@@ -157,12 +157,12 @@ img {
 
 /* Переходы на ховер */
 
-.button, button, .socials__link, .menu__link, .pager__link, {
+.button, button, .socials__link, .menu__link, .pager__link, .dropdown__menu {
   transition-duration: 0.15s;
-  transition-property:  color, background;
+  transition-property:  color, background, opacity;
 }
 
-.button, button, .socials__link, .menu__link, .pager__link:hover {
+.button, button, .socials__link, .menu__link, .pager__link, .dropdown__menu :hover {
   transition-duration: 0.15s;
-  transition-property:  color, background;
+  transition-property:  color, background, opacity;
 }
