@@ -9,23 +9,10 @@
 }
 
 .dropdown:hover .dropdown__menu {
-  /* display: flex; */
-  /* animation: drop 0.15s; */
   right: 0;
   left: auto;
   opacity: 80%;
 }
-
-/* @keyframes drop {
-  from {
-   opacity: 0%; 
-  }
-
-  to {
-    opacity: 80%;
-  }
-} */
-
 
 .dropdown__menu {
   position: absolute;
@@ -39,9 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* right: 0; */
   left: -9999px;
-  /* display: none; */
   opacity: 0%;
 }
 
@@ -49,8 +34,6 @@
   content: '';
   position: absolute;
   border: 10px solid transparent;
-  /* width: 0;
-  height: 0; */
   border-bottom-color: #cdd1d2;
   border-top-width: 0;
   border-right-width: 12px;
